@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-import './css/w3.css';
-import Header from './Header';
-import Body from './Body';
+import Container from './container/Container';
 
 class App extends Component {
 
 	render() {
 		return(
 			<React.Fragment>
-				<Header />
-				<Body />
+				<Container />
 			</React.Fragment>
 		);
 	}
 }
-
 
 export default App;

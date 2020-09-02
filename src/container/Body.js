@@ -1,5 +1,5 @@
 import React from 'react';
-import LeftNav from './component/LeftNav/LeftNav';
+import LeftNav from '../component/LeftNav/LeftNav';
 
 const  Body = () => {
 	return(
