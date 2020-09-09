@@ -2,8 +2,9 @@ import React from 'react';
 import './Topnav.css';
 import Login from '../Login/Login';
 import ChangeMode from '../ChangeMode/ChangeMode';
+import Form from '../Form/Form';
 
-const Topnav = () =>{
+const Topnav = (props) =>{
 	return (
 		<div>
 		  	<div className="w3-bar w3-theme w3-card-2 w3-wide">
@@ -28,6 +29,8 @@ const Topnav = () =>{
 				<div className="forgot-password w3-right">
 			      <a href="#.html"> Forgot my password </a>
 			    </div>
+			{props.children}
+			<Form />
 		</div>
 	);
 }
