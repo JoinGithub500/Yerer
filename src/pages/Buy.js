@@ -6,9 +6,7 @@ export const Buy = () => {
 	return(
 		<div>
 			<Top />
-			<Topnav>
-				<button>Click Here</button>
-			</Topnav>
+			<Topnav />
 		</div>
 	);
 }

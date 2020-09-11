@@ -5,7 +5,7 @@ import yerer from './yerer.png';
 
 const Top = () => {
 	return(
-    <div>
+    <div className="top-index">
     	<div className="w3-row w3-mycolor w3-padding">
         <div className="w3-half">
           <a href='#.html'><img className="logo-img" src={yerer} alt='#' /></a>
